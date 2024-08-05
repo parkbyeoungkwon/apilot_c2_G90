@@ -534,7 +534,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, AlertCallbackType]]] = {
       "",
       AlertStatus.userPrompt, AlertSize.none,
       #Priority.LOW, VisualAlert.none, AudibleAlert.prompt, .1),
-      Priority.LOW, VisualAlert.none, AudibleAlert.bsdWarning, .1),
+      Priority.LOW, VisualAlert.none, AudibleAlert.none, .1),
   },
 
   EventName.laneChangeRoadEdge: {
