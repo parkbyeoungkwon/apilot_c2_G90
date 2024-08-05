@@ -234,7 +234,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate == CAR.GENESIS_G90:
       ret.mass = 2200
       ret.wheelbase = 3.15
-      ret.steerRatio = 12.069
+      ret.steerRatio = 16.36
 
     elif candidate in [CAR.GRANDEUR_IG, CAR.GRANDEUR_IG_HEV]:
       ret.mass = 1570. + STD_CARGO_KG
@@ -269,7 +269,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate == CAR.GENESIS_G90_2019:
       ret.mass = 2150
       ret.wheelbase = 3.16
-      
+      ret.steerRatio = 16.36      
 
     # *** longitudinal control ***
     if candidate in CANFD_CAR:
