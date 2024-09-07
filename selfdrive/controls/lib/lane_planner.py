@@ -8,7 +8,7 @@ TRAJECTORY_SIZE = 33
 
 ENABLE_ZORROBYTE = True
 CAMERA_OFFSET = 0.0
-PATH_OFFSET = -0.08
+PATH_OFFSET = -0.1
 
 class LanePlanner:
   def __init__(self, wide_camera=False):
