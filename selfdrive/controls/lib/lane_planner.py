@@ -7,8 +7,8 @@ from common.realtime import DT_MDL
 TRAJECTORY_SIZE = 33
 
 ENABLE_ZORROBYTE = True
-CAMERA_OFFSET = 0.0
-PATH_OFFSET = -0.2
+CAMERA_OFFSET = -0.09
+PATH_OFFSET = 0.2
 
 class LanePlanner:
   def __init__(self, wide_camera=False):
